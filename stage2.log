@@ -1,0 +1,1322 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-ccsjd" at "2026-11-21T11:51:19.2436615Z"
+[Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 5068, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] Error: LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              7b83b21c5a6c43a3bea2719253ba98c4
+  Correlation Id:          a2dafe0b1c21953bd208fd9ddf0542ec
+  External correlation Id: 3536390621535905955
+  Machine Id:              88DP5VVvrAXh7bB936Z4ZSnO8b8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ccsjd" (connect: 0.00s, validation: 0.01s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-ccsjd-notifications" at "2026-11-21T11:51:19.375425Z"
+Entitlement-based licensing initiated
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2021.3/staging' branch; Version is '2021.3.40f1 (6fcab7dbbbc1) revision 7326391'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) 64bit Professional' Language: 'en' Physical Memory: 32469 MB
+[Licensing::Client] Successfully resolved entitlements
+[Licensing::Module] Serial number assigned to: "18968483773471-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 53227 was selected
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.40f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\Unity\Trashrush
+-executeMethod
+TrashRush.Editor.Stage2EnhancementPipeline.RunStage2
+-logFile
+C:\Unity\Trashrush\stage2.log
+Successfully changed project path to: C:\Unity\Trashrush
+C:/Unity/Trashrush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21832] Host "[IP] 10.2.0.2 [Port] 55496 [Flags] 2 [Guid] 2692804766 [EditorId] 2692804766 [Version] 1048832 [Id] WindowsEditor(7,Seethe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21832] Host "[IP] 10.2.0.2 [Port] 55496 [Flags] 2 [Guid] 2692804766 [EditorId] 2692804766 [Version] 1048832 [Id] WindowsEditor(7,Seethe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+[Licensing::Client] Successfully resolved entitlements
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] 
+Registered 48 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.3.1 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.collab-proxy@2.3.1)
+    com.unity.ide.rider@3.0.28 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.ide.rider@3.0.28)
+    com.unity.ide.visualstudio@2.0.22 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.ide.visualstudio@2.0.22)
+    com.unity.ide.vscode@1.2.5 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.test-framework@1.1.33 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.test-framework@1.1.33)
+    com.unity.textmeshpro@3.0.6 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.textmeshpro@3.0.6)
+    com.unity.timeline@1.6.5 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.timeline@1.6.5)
+    com.unity.visualscripting@1.9.4 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.visualscripting@1.9.4)
+    com.unity.ext.nunit@1.0.6 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.editorcoroutines@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.editorcoroutines@1.0.0)
+    com.unity.performance.profile-analyzer@1.2.2 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2)
+    com.unity.testtools.codecoverage@1.2.5 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5)
+    com.unity.settings-manager@1.0.3 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.settings-manager@1.0.3)
+  Built-in packages:
+    com.unity.feature.development@1.0.1 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.feature.development@1.0.1)
+    com.unity.ugui@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+    com.unity.modules.uielementsnative@1.0.0 (location: C:\Unity\Trashrush\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0)
+
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.14s seconds
+Refreshing native plugins compatible for Editor in 14.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.40f1 (6fcab7dbbbc1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Trashrush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.7322
+[Licensing::Client] Successfully resolved entitlements
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022278 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1134ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (706ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+[Licensing::Client] Successfully resolved entitlements
+Application.AssetDatabase Initial Refresh Start
+Registering precompiled user dll's ...
+Registered in 0.016598 seconds.
+Starting: C:\Program Files\Unity\Hub\Editor\2021.3.40f1\Editor\Data\bee_backend.exe --profile="Library/Bee/backend_profiler0.traceevents" --stdin-canary --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure ScriptAssemblies
+WorkingDir: C:/Unity/Trashrush
+ExitCode: 0 Duration: 0s223ms
+*** Tundra build success (0.16 seconds), 0 items updated, 321 evaluated
+AssetDatabase: script compilation time: 0.782438s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3263ms)
+		BeginReloadAssembly (350ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2675ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (570ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1767ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (1515ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014713 seconds.
+Asset Pipeline Refresh: Total: 6.946 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=796 ms
+		Asset DB Callback time: managed=90 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=3464 ms, compile time=785 ms, other=1807 ms
+		Project Asset Count: scripts=3715, non-scripts=664
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeBeforeRefreshCallbacks: 1.871ms
+	ApplyChangesToAssetFolders: 0.113ms
+	Scan: 448.568ms
+	OnSourceAssetsModified: 0.001ms
+	InitializeImportedAssetsSnapshot: 8.988ms
+	GetAllGuidsForCategorization: 0.938ms
+	CategorizeAssets: 250.072ms
+	ImportOutOfDateAssets: 6089.776ms (5302.359ms without children)
+		CompileScripts: 784.974ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.230ms
+		InitializingProgressBar: 0.005ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.702ms
+		OnDemandSchedulerStart: 0.505ms
+	ReloadSourceAssets: 0.691ms
+	UnloadImportedAssets: 28.636ms
+	PostProcessAllAssets: 90.462ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.627ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.673ms
+	GetLoadedSourceAssetsSnapshot: 0.726ms
+	PersistCurrentRevisions: 0.301ms
+	UnloadStreamsEnd: 0.049ms
+	GenerateScriptTypeHashes: 1.036ms
+	Untracked: 113.233ms
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Scanning for USB devices : 3.117ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Trashrush
+ProgressiveSceneManager::Cancel()
+Unloading 113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 146 unused Assets / (464.5 KB). Loaded Objects now: 3596.
+Memory consumption went from 80.8 MB to 80.4 MB.
+Total: 5.962100 ms (FindLiveObjects: 0.397800 ms CreateObjectMapping: 0.308400 ms MarkObjects: 4.842900 ms  DeleteObjects: 0.411400 ms)
+
+[Stage2] ========== STAGE 2: ENVIRONMENT ENHANCEMENT PIPELINE ==========
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:28)
+
+(Filename: Assets/Editor/Stage2EnhancementPipeline.cs Line: 28)
+
+[GameAssetPipeline] Starting Asset Generation Pipeline...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:21)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+(Filename: Assets/Editor/GameAssetPipeline.cs Line: 21)
+
+[GameAssetPipeline] Generating Audio files...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.GameAssetPipeline:GenerateAudioAssets () (at Assets/Editor/GameAssetPipeline.cs:63)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:24)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+(Filename: Assets/Editor/GameAssetPipeline.cs Line: 63)
+
+Registering precompiled user dll's ...
+Registered in 0.020005 seconds.
+Asset Pipeline Refresh: Total: 0.079 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[GameAssetPipeline] Generating Textures and Materials...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.GameAssetPipeline:GenerateTexturesAndMaterials () (at Assets/Editor/GameAssetPipeline.cs:82)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:25)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+(Filename: Assets/Editor/GameAssetPipeline.cs Line: 82)
+
+Asset Pipeline Refresh: Total: 0.015 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[GameAssetPipeline] Saving Procedural Meshes as assets...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.GameAssetPipeline:GenerateMeshAssets () (at Assets/Editor/GameAssetPipeline.cs:155)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:26)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+(Filename: Assets/Editor/GameAssetPipeline.cs Line: 155)
+
+Asset Pipeline Refresh: Total: 0.004 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[GameAssetPipeline] Assembling Prefabs...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.GameAssetPipeline:GeneratePrefabs () (at Assets/Editor/GameAssetPipeline.cs:204)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:27)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+(Filename: Assets/Editor/GameAssetPipeline.cs Line: 204)
+
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.008 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.008 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.011 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[GameAssetPipeline] Building Complete Game Scene...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:364)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+(Filename: Assets/Editor/GameAssetPipeline.cs Line: 364)
+
+[Licensing::Client] Successfully resolved entitlements
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 251 unused Assets / (13.7 KB). Loaded Objects now: 3646.
+Memory consumption went from 78.0 MB to 78.0 MB.
+Total: 6.392500 ms (FindLiveObjects: 0.405800 ms CreateObjectMapping: 0.313600 ms MarkObjects: 5.435300 ms  DeleteObjects: 0.236100 ms)
+
+Registering precompiled user dll's ...
+Registered in 0.020706 seconds.
+Start importing Assets/Art/Materials/M_Grass.mat using Guid(d0fb796b56c639f46859a5ca6c45057a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '16b47a9eca37371cd2b15a519be9e9f0') in 0.016144 seconds 
+Start importing Assets/Art/Materials/M_Bin_Plastic.mat using Guid(01995d1489bb3fd4ea44edaa7c785df5) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4b89938a558e055a38a8ce63e9c72b51') in 0.005761 seconds 
+Start importing Assets/Art/Materials/M_Lamp_Light.mat using Guid(1193d58a2dbe01745a4ac4fdfa3281a2) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f52cfb84254c0411ddb59b6a13e3be7c') in 0.006430 seconds 
+Start importing Assets/Art/Materials/M_Path.mat using Guid(91fcf358b930a5245a184e0182cc8d69) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '70e3697f688d42c79c2fa7c633cef4b3') in 0.005943 seconds 
+Start importing Assets/Art/Materials/M_Organic_Green.mat using Guid(f28170bb157e4e94ca7a5145b7705e99) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5e3584b6ee109b8f505400137653415c') in 0.005176 seconds 
+Start importing Assets/Art/Materials/M_Metal_Light.mat using Guid(249c8064663d18e45b725ba1a7afd5b8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '20306ce5d85d2e225f875a423e6462f9') in 0.004961 seconds 
+Start importing Assets/Art/Materials/M_Stone.mat using Guid(3418dbb79c1b31f48885578331fc1cdd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b5e2a7ce44e5d816c16f1b711832889c') in 0.005297 seconds 
+Start importing Assets/Art/Materials/M_TreeFoliage_Light.mat using Guid(c463ade9e20a05a4aa67ad41f040ce44) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5cc7fd6e0036268580c611043eb4d109') in 0.006550 seconds 
+Start importing Assets/Art/Materials/M_Player_Skin.mat using Guid(7547a955612a1ba43a2683f8be416eae) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c09dcbef9eda5075c6286f41034bf164') in 0.005452 seconds 
+Start importing Assets/Art/Materials/M_Bin_Metal.mat using Guid(85b670db44949a74eb01bf7cbc339156) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9ed92ade48def3f809f9a72eb9560951') in 0.007961 seconds 
+Start importing Assets/Art/Materials/M_Water.mat using Guid(f5f7381e809081d46b66d559f2c2a94a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'fb023b3a08fac3a736d409cf40ff257d') in 0.005743 seconds 
+Start importing Assets/Art/Materials/M_TreeTrunk.mat using Guid(378652e8d7d4a6f4890f976ed6611667) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a80e5f8c358735f6789a6f986c5f94cb') in 0.005367 seconds 
+Start importing Assets/Art/Materials/M_Player_Body.mat using Guid(7766d5ebf6339d14eb2d788320050078) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f33481353f5ebb1614960a725bcd0c01') in 0.005326 seconds 
+Start importing Assets/Art/Materials/M_Metal_Dark.mat using Guid(a7c9193837fbfc945a485db00e8bac3d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1c2a14193091c1c29a67765da8daa423') in 0.005044 seconds 
+Start importing Assets/Art/Materials/M_Paper.mat using Guid(e70c0c454a317874e952b28a6a265599) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e490440c6030bd49e3b3e831ca548d51') in 0.004844 seconds 
+Start importing Assets/Art/Materials/M_Cardboard.mat using Guid(e82b4525e22b61f48b7253e4fa2cc553) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8aadbbdf3bff6ddb902c93204b226e35') in 0.005213 seconds 
+Start importing Assets/Art/Materials/M_Bush.mat using Guid(09adc5ec89f992a438ed68fc2d85feb0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a1d28d0274bf78f95916f373d52a68f2') in 0.005069 seconds 
+Start importing Assets/Art/Materials/M_Plastic_White.mat using Guid(69227a3dab0671f4f81aeeea69075c00) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9b12fcc4e1280374e898579d3484970e') in 0.004958 seconds 
+Start importing Assets/Art/Materials/M_Bin_Organic.mat using Guid(3a59753d03061894f98fab087bed205c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '72957b80e9c57876a03d4c36d85c0aab') in 0.005034 seconds 
+Start importing Assets/Art/Materials/M_TreeFoliage_Dark.mat using Guid(3bacf3fee6cd5c442936fefbaac26b74) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3312ed7f795801a910547da59ce8138c') in 0.004897 seconds 
+Start importing Assets/Art/Materials/M_Lamp_Post.mat using Guid(fc00724d87ef00341a1ba8aac5fc47eb) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4b262885cb34d9a251a75598fea262c8') in 0.004868 seconds 
+Start importing Assets/Art/Materials/M_Organic_Red.mat using Guid(4d540f23843ab6344bc98c84881d6033) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ef252f905f4da95155c7f7b3fc951e07') in 0.005466 seconds 
+Start importing Assets/Art/Materials/M_Plastic_Clear.mat using Guid(6d86ff7b8b5b19b4fa75cb1c24eccba6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4cf2db305a3d8e0b5330ba3a267198b4') in 0.004816 seconds 
+Start importing Assets/Art/Materials/M_Organic_Yellow.mat using Guid(de32ec42f655ea14db1f1523fb025b9e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ecf86b5fd16cc2e698252032711122d8') in 0.004507 seconds 
+Start importing Assets/Art/Materials/M_Wood.mat using Guid(debc5d3b5903cef4bbcbb826448ee9e3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ae406085ed49121a1473cce2110b3f1d') in 0.005074 seconds 
+Start importing Assets/Art/Materials/M_Bin_Paper.mat using Guid(1f81c6f10116cb3428ed41fc78f2acff) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '281f4b96a0e18aa666e0361cebbc0b9c') in 0.004861 seconds 
+Start importing Assets/Art/Models/Mesh_BananaPeel.asset using Guid(90151f6c2e275ef47acbc4fc248b0c90) Importer(-1,00000000000000000000000000000000) Main Object Name 'BananaPeel' does not match filename 'Mesh_BananaPeel'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '5ef373869cf2eed9c4debdd040b64245') in 0.005187 seconds 
+Start importing Assets/Art/Models/Mesh_CardboardBox.asset using Guid(a08b059ab17d0f24c84b15e477653343) Importer(-1,00000000000000000000000000000000) Main Object Name 'CardboardBox' does not match filename 'Mesh_CardboardBox'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: 'de82172b51a4b4f7610c6a32d8af9be8') in 0.005538 seconds 
+Start importing Assets/Art/Models/Mesh_FoodCan.asset using Guid(d2ed99c45ecbe2e48b44e80dfa528bc5) Importer(-1,00000000000000000000000000000000) Main Object Name 'MetalFoodCan' does not match filename 'Mesh_FoodCan'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '572d624998df33ab0ea05d1715bb09a8') in 0.005361 seconds 
+Start importing Assets/Art/Models/Mesh_ParkBench.asset using Guid(3327860a5baa45f41be92c7f0e7b38c8) Importer(-1,00000000000000000000000000000000) Main Object Name 'ParkBench' does not match filename 'Mesh_ParkBench'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '6894c026f98dcfe259e9cdbdac35ec43') in 0.005288 seconds 
+Start importing Assets/Art/Models/Mesh_PlasticCup.asset using Guid(73dbb4d4647519b48b5aedba24055191) Importer(-1,00000000000000000000000000000000) Main Object Name 'PlasticCup' does not match filename 'Mesh_PlasticCup'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '1dc2eb929dfeb69bcd4bfe191160b613') in 0.008815 seconds 
+Start importing Assets/Art/Models/Mesh_RoundTree.asset using Guid(74d695502ab80d4409cddebeb210df4b) Importer(-1,00000000000000000000000000000000) Main Object Name 'RoundTree' does not match filename 'Mesh_RoundTree'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: 'fad4efe57253bba889dd9e07ce118aa4') in 0.005183 seconds 
+Start importing Assets/Art/Models/Mesh_PineTree.asset using Guid(b458985d7aaf41e42aa954a022531bd8) Importer(-1,00000000000000000000000000000000) Main Object Name 'PineTree' does not match filename 'Mesh_PineTree'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: 'cadca51c2c0e53b81c5fdcd05b6bec33') in 0.005545 seconds 
+Start importing Assets/Art/Models/Mesh_Bush.asset using Guid(3502891f5daaa5d4790de296d74523b0) Importer(-1,00000000000000000000000000000000) Main Object Name 'Bush' does not match filename 'Mesh_Bush'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '8bf5c649e4c80c655f97dc6ef8c6b83b') in 0.005529 seconds 
+Start importing Assets/Art/Models/Mesh_Newspaper.asset using Guid(75b9f69613790b64c8e4f345c0898341) Importer(-1,00000000000000000000000000000000) Main Object Name 'Newspaper' does not match filename 'Mesh_Newspaper'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '684cea8e54cfe6490a58e6babb86f6c8') in 0.004945 seconds 
+Start importing Assets/Art/Models/Mesh_PlasticBottle.asset using Guid(d53100988fc4148458901505ae77a92c) Importer(-1,00000000000000000000000000000000) Main Object Name 'PlasticBottle' does not match filename 'Mesh_PlasticBottle'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '7b292c2b8ac09d1ad1f971afe51dcdb2') in 0.005628 seconds 
+Start importing Assets/Art/Models/Mesh_FenceSection.asset using Guid(76e67dac6c48cbf40be9b7e908f0701a) Importer(-1,00000000000000000000000000000000) Main Object Name 'FenceSection' does not match filename 'Mesh_FenceSection'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '0a2de23ab5926eae5e367906508b8a44') in 0.005152 seconds 
+Start importing Assets/Art/Models/Mesh_ParkSign.asset using Guid(87816158c96415147bedb56326c80859) Importer(-1,00000000000000000000000000000000) Main Object Name 'ParkSign' does not match filename 'Mesh_ParkSign'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '3b404debc04dc9cfb65e3851366236c3') in 0.005284 seconds 
+Start importing Assets/Art/Models/Mesh_Player.asset using Guid(087a3626f6498a6488ffe9295dbc3594) Importer(-1,00000000000000000000000000000000) Main Object Name 'PlayerCharacter' does not match filename 'Mesh_Player'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '4b4b8fa4e41ee22c247572e54f1771ee') in 0.005491 seconds 
+Start importing Assets/Art/Models/Mesh_BinLid.asset using Guid(599fa816f59278d499fc06ae86d0e226) Importer(-1,00000000000000000000000000000000) Main Object Name 'RecyclingBinLid' does not match filename 'Mesh_BinLid'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '7c1ba920d5d688b31aea889b2786ad96') in 0.005312 seconds 
+Start importing Assets/Art/Models/Mesh_SodaCan.asset using Guid(99f179c5d9c4c3346a173bdbe954ca7c) Importer(-1,00000000000000000000000000000000) Main Object Name 'SodaCan' does not match filename 'Mesh_SodaCan'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '665825a94f0f7b01ef91cfa7720aa1d2') in 0.005471 seconds 
+Start importing Assets/Art/Models/Mesh_Rock.asset using Guid(0c3b0cd6e8853d144892c0f24a8f691a) Importer(-1,00000000000000000000000000000000) Main Object Name 'Rock' does not match filename 'Mesh_Rock'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '65ae60cbe92e58fb436c63f9295a4b98') in 0.005235 seconds 
+Start importing Assets/Art/Models/Mesh_StreetLamp.asset using Guid(9c6977f658749614ca66165ab1d1f374) Importer(-1,00000000000000000000000000000000) Main Object Name 'StreetLamp' does not match filename 'Mesh_StreetLamp'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: 'c2907f42c192361f54a477f544dd329d') in 0.005098 seconds 
+Start importing Assets/Art/Models/Mesh_PlasticContainer.asset using Guid(ec06f6057fc5b334b980b353405fec47) Importer(-1,00000000000000000000000000000000) Main Object Name 'PlasticContainer' does not match filename 'Mesh_PlasticContainer'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '51ec1c579310e43a7ad77b87e6e74b91') in 0.005913 seconds 
+Start importing Assets/Art/Models/Mesh_AppleCore.asset using Guid(1d0fd8a5bc99ead4d8d8c1c8e9b29a4e) Importer(-1,00000000000000000000000000000000) Main Object Name 'AppleCore' does not match filename 'Mesh_AppleCore'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: 'e16a447b6cab0d80e712a43271b822a1') in 0.006650 seconds 
+Start importing Assets/Art/Models/Mesh_LeafPile.asset using Guid(8d8a6b5e12f6f96488e95f8d38e3ba2d) Importer(-1,00000000000000000000000000000000) Main Object Name 'LeafPile' does not match filename 'Mesh_LeafPile'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '277db0a08d4f4701eaedc3e0b24cec82') in 0.005079 seconds 
+Start importing Assets/Art/Models/Mesh_MetalLid.asset using Guid(2eb82e939a9bddf4393f87bf85606b89) Importer(-1,00000000000000000000000000000000) Main Object Name 'MetalLid' does not match filename 'Mesh_MetalLid'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '813b3fecf184ceb38f033a7e98aba7f6') in 0.005404 seconds 
+Start importing Assets/Art/Models/Mesh_BinBody.asset using Guid(5e94da2811d9db643b42705a1a7bd274) Importer(-1,00000000000000000000000000000000) Main Object Name 'RecyclingBinBody' does not match filename 'Mesh_BinBody'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: 'ed9f3d98f4a08ad9cdeb5b3d2d0ac3a0') in 0.005328 seconds 
+Start importing Assets/Art/Models/Mesh_PaperBall.asset using Guid(4f3a250d218543f4f8565f2e19f77061) Importer(-1,00000000000000000000000000000000) Main Object Name 'PaperBall' does not match filename 'Mesh_PaperBall'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:443)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+[Assets/Editor/GameAssetPipeline.cs line 443]
+
+ -> (artifact id: '0764c8cb13e8a7738069cd852bcca7b2') in 0.005484 seconds 
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.559 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=49 (actual=49, local cache=0, cache server=0)
+		Asset DB Process Time: managed=8 ms, native=426 ms
+		Asset DB Callback time: managed=105 ms, native=19 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=3715, non-scripts=664
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 53
+	InvokeBeforeRefreshCallbacks: 0.001ms
+	ApplyChangesToAssetFolders: 0.091ms
+	Scan: 33.725ms
+	OnSourceAssetsModified: 0.000ms
+	InitializeImportedAssetsSnapshot: 34.141ms
+	GetAllGuidsForCategorization: 0.770ms
+	CategorizeAssets: 3.787ms
+	ImportOutOfDateAssets: 355.199ms (2.326ms without children)
+		ImportManagerImport: 351.076ms (44.969ms without children)
+			ImportInProcess: 305.543ms
+			UpdateCategorizedAssets: 0.564ms
+		ReloadImportedAssets: 0.045ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.733ms
+		InitializingProgressBar: 0.006ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.641ms
+		OnDemandSchedulerStart: 0.372ms
+	ReloadSourceAssets: 0.960ms
+	UnloadImportedAssets: 0.976ms
+	PostProcessAllAssets: 117.900ms
+	Hotreload: 6.298ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.264ms
+	UnloadStreamsBegin: 0.748ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.723ms
+	GetLoadedSourceAssetsIDs: 1.648ms
+	GetLoadedSourceAssetsSnapshot: 1.732ms
+	PersistCurrentRevisions: 0.300ms
+	UnloadStreamsEnd: 0.536ms
+	Untracked: 115.984ms
+Registering precompiled user dll's ...
+Registered in 0.014201 seconds.
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd0ccf0df898617882e52a684bbe3b501') in 0.001492 seconds 
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.077 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[GameAssetPipeline] Scene successfully built and saved to Assets/Scenes/SampleScene.unity
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.GameAssetPipeline:BuildGameScene () (at Assets/Editor/GameAssetPipeline.cs:444)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:28)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+(Filename: Assets/Editor/GameAssetPipeline.cs Line: 444)
+
+Asset Pipeline Refresh: Total: 0.012 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[GameAssetPipeline] Asset Generation and Scene Construction Complete!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.GameAssetPipeline:GenerateAllAndBuild () (at Assets/Editor/GameAssetPipeline.cs:33)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:31)
+
+(Filename: Assets/Editor/GameAssetPipeline.cs Line: 33)
+
+[Stage2] Creating additional materials...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.Stage2EnhancementPipeline:CreateAdditionalMaterials () (at Assets/Editor/Stage2EnhancementPipeline.cs:59)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:34)
+
+(Filename: Assets/Editor/Stage2EnhancementPipeline.cs Line: 59)
+
+Registering precompiled user dll's ...
+Registered in 0.014523 seconds.
+Start importing Assets/Art/Materials/M_Flower_Red.mat using Guid(fb9d8641dfdfb5842b3a501b4f70ece4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '73fd0cd94f604cb957449f6135abeb29') in 0.005497 seconds 
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.085 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014266 seconds.
+Start importing Assets/Art/Materials/M_Flower_Yellow.mat using Guid(e93be5da70cc89b4e9f5657c7d515542) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6405e9533aa4bb6e6804bb6ecc5ea901') in 0.005333 seconds 
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.078 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014284 seconds.
+Start importing Assets/Art/Materials/M_Flower_White.mat using Guid(ed45235134152214cb2312a561da0950) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b807eb388f9721dae870245d2dea3b8d') in 0.005275 seconds 
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.079 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014514 seconds.
+Start importing Assets/Art/Materials/M_Flower_Purple.mat using Guid(b1969b2c859ad304fa658d6602244e1f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c5926843cb4c28339444b300d20c0b88') in 0.005376 seconds 
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.083 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014431 seconds.
+Start importing Assets/Art/Materials/M_Flower_Stem.mat using Guid(ea76105dd2703ed4cac9d29e3df4f104) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2a91db317aa1af765e79c48b00f9025a') in 0.005275 seconds 
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.082 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014220 seconds.
+Start importing Assets/Art/Materials/M_Concrete.mat using Guid(7f14bc14f92229345a2f73eaa13a1ce4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd8d4c584d6fa88e60b79e763604fb2f2') in 0.005196 seconds 
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.085 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014221 seconds.
+Start importing Assets/Art/Materials/M_DarkWood.mat using Guid(328b9f912a257d24c8dcb7cc836efaeb) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1490d5c82ff2ef448d97f005de6dc0c8') in 0.005506 seconds 
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.018742 seconds.
+Start importing Assets/Art/Materials/M_Player_Hair.mat using Guid(5f2a6e45987e4bc418fe9e34d87e929d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '91409df2bef80eb4564501af6ef3918c') in 0.005331 seconds 
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.096 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.016395 seconds.
+Start importing Assets/Art/Materials/M_Player_Pants.mat using Guid(e0f6c07cff22f8b4e9264f9d1870a60d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '21d4bf05a0a46d8973355b00e1643ff4') in 0.005403 seconds 
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.087 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014337 seconds.
+Start importing Assets/Art/Materials/M_Player_Boots.mat using Guid(ce967801494378d44b00c38df78f0e01) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '64ceba12f9e491fef4646ccf1136100b') in 0.005310 seconds 
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014256 seconds.
+Start importing Assets/Art/Materials/M_Player_Backpack.mat using Guid(30a3975c9ddd76e4786c3c764f670640) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ffd6b33c5aaf8f89d27b0b6471bddcd8') in 0.006038 seconds 
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014487 seconds.
+Start importing Assets/Art/Materials/M_Bin_Lid.mat using Guid(3f7a08bd80ee5044ca07ecd198f76230) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b6e8281ad9ae957fc80f86adfa127d08') in 0.006495 seconds 
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.086 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014630 seconds.
+Start importing Assets/Art/Materials/M_Fountain_Stone.mat using Guid(ca76ad3d4d1135b4e8c20b3ef1fa7cfb) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8debae6e73085ad585b6da9714da6613') in 0.005214 seconds 
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.091 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014392 seconds.
+Start importing Assets/Art/Materials/M_GrassEdge.mat using Guid(e4da6f89ce740d44f900bc01e9f754ff) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ba4147d97ca873326ba5f3139f4abe72') in 0.005627 seconds 
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.083 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014617 seconds.
+Start importing Assets/Art/Materials/M_Dirt.mat using Guid(6ee1b46911c734f449469393bd7e82bd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c52cf85e8c051f48265c9b414938b3a8') in 0.006082 seconds 
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.088 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014536 seconds.
+Start importing Assets/Art/Materials/M_Particle_Green.mat using Guid(1c44445403ff8de4cba1fdd4501f207a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f3ef3d641dc9e7f05072bc7946e15c69') in 0.005949 seconds 
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.085 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014314 seconds.
+Start importing Assets/Art/Materials/M_Particle_Red.mat using Guid(6609d5ca54f9efe44b5793282b0ab3d7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '38dc4c92e0c791c0f4f52807065f2004') in 0.005340 seconds 
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.086 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.011 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Stage2] Creating additional mesh assets...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.Stage2EnhancementPipeline:CreateAdditionalMeshAssets () (at Assets/Editor/Stage2EnhancementPipeline.cs:127)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:37)
+
+(Filename: Assets/Editor/Stage2EnhancementPipeline.cs Line: 127)
+
+Registering precompiled user dll's ...
+Registered in 0.014324 seconds.
+Start importing Assets/Art/Models/Mesh_FlowerCluster.asset using Guid(a795f8c91bc734749a36e2b1a44a699b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a04602ae6c106230953d69946d62f860') in 0.013574 seconds 
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.090 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014365 seconds.
+Start importing Assets/Art/Models/Mesh_Fountain.asset using Guid(fe55fd56bf2210e4c880e4719f9abfda) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f1569f6a6fef59e870680a706a1c7aac') in 0.005574 seconds 
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.083 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014168 seconds.
+Start importing Assets/Art/Models/Mesh_PicnicTable.asset using Guid(57387cad6e3497146b0d4a3608771648) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'dac069af1736a22204c998ed32aaa528') in 0.005380 seconds 
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.083 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014807 seconds.
+Start importing Assets/Art/Models/Mesh_SmallTrashCan.asset using Guid(5605c51514dbf084f98c4edf20f2d41b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5d0111f9cd4abcc637eeed53ec3db0f3') in 0.005372 seconds 
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.082 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014235 seconds.
+Start importing Assets/Art/Models/Mesh_SteppingStone.asset using Guid(eef489b768273854b8cefd628cc9f11b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0326d017c7a4b123e167fefa4781fe8b') in 0.005315 seconds 
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.081 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014574 seconds.
+Start importing Assets/Art/Models/Mesh_Gazebo.asset using Guid(7f144514c1d6bda46a7a370f413cf6cd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f2435021f2814f2fe8b9f51e313764d1') in 0.005441 seconds 
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.079 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.011 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Stage2] Creating enhanced prefabs...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.Stage2EnhancementPipeline:CreateEnhancedPrefabs () (at Assets/Editor/Stage2EnhancementPipeline.cs:282)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:40)
+
+(Filename: Assets/Editor/Stage2EnhancementPipeline.cs Line: 282)
+
+Registering precompiled user dll's ...
+Registered in 0.014197 seconds.
+Start importing Assets/Prefabs/Environment/Env_PineTree.prefab using Guid(93d286e36abc645469640ec2cc21af96) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2cda7d3089a4cb3f9edff9656f876f15') in 0.030238 seconds 
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.109 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014553 seconds.
+Start importing Assets/Prefabs/Environment/Env_RoundTree.prefab using Guid(afb6bd152dee28f4fbf41a903c120321) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '85ec0061ca0f6a6062d0f765976e0e8b') in 0.029026 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.103 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014452 seconds.
+Start importing Assets/Prefabs/Environment/Env_FlowerCluster.prefab using Guid(e30df52772281ea4195cf2f4155b4b7b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8b305857b9cb49c821074711644a9075') in 0.041925 seconds 
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.123 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014599 seconds.
+Start importing Assets/Prefabs/Environment/Env_Fountain.prefab using Guid(d6cb94b9a4b75e947bc40f9113e6dce5) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9f9df5fd1cbcabd695bede8be7ca59d3') in 0.042272 seconds 
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.119 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014249 seconds.
+Start importing Assets/Prefabs/Environment/Env_PicnicTable.prefab using Guid(ebb58885b1c0d874bae3ae25851d08db) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b3a3645f3e2804600419e4dd5b770803') in 0.042629 seconds 
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.123 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014794 seconds.
+Start importing Assets/Prefabs/Environment/Env_SmallTrashCan.prefab using Guid(de751a4ba7a610947b57c7025ab63fe1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '779ae7846ed02cd4a234fc2bc1230393') in 0.041191 seconds 
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.125 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.015659 seconds.
+Start importing Assets/Prefabs/Environment/Env_SteppingStone.prefab using Guid(819667acffe4b014884d88b05d69afba) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '59af5ccb243cd4fe23baaa247b05188e') in 0.043705 seconds 
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.125 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014296 seconds.
+Start importing Assets/Prefabs/Environment/Env_Gazebo.prefab using Guid(df507dc0b29fa544d8804821201d6b43) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1588c1bf73f8073e13c4b87c83fc366c') in 0.044242 seconds 
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.129 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.016011 seconds.
+Start importing Assets/Art/Materials/M_Label_PLASTIC.mat using Guid(97c547cb08790374ea9e393c9afc30b4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f05cf7b3eacc1a7be19bff53250d4c6a') in 0.005596 seconds 
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.086 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.016168 seconds.
+Start importing Assets/Prefabs/RecyclingBins/Bin_Plastic.prefab using Guid(f4ab62c9e85901a40b99fe2d87ed5784) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '90bdd0b7c138aa6ad68c4a144e8ab180') in 0.045715 seconds 
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.136 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014476 seconds.
+Start importing Assets/Art/Materials/M_Label_PAPER.mat using Guid(52e9ce8f10f8a714b9e0f534bb326e0a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e5b1cf9fda43600593b9a08116f9d379') in 0.005849 seconds 
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014925 seconds.
+Start importing Assets/Prefabs/RecyclingBins/Bin_Paper.prefab using Guid(0d6965eb228d9ab42ac9567370272124) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7d5a322f36944f6884eb2fe5cb2c1295') in 0.038245 seconds 
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.124 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014108 seconds.
+Start importing Assets/Art/Materials/M_Label_METAL.mat using Guid(bf14d2e700bdf35438e6cf19b1836d02) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ae84c5176da81bfa785d706b43aec594') in 0.005229 seconds 
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.082 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014143 seconds.
+Start importing Assets/Prefabs/RecyclingBins/Bin_Metal.prefab using Guid(86d33d237e1748e41baaaba948d65522) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '85807ff5e2decb308d7ed761781aaf3b') in 0.075193 seconds 
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.180 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014116 seconds.
+Start importing Assets/Art/Materials/M_Label_ORGANIC.mat using Guid(fb045fc6565674346abf29aacf717ac3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6d48571fb362071c1e7e8b74605e13b7') in 0.005307 seconds 
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.018428 seconds.
+Start importing Assets/Prefabs/RecyclingBins/Bin_Organic.prefab using Guid(6c90ce3e151a0c541a82ed8433163ff6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ee749e1906fdb7a67c5c230650d54c17') in 0.043924 seconds 
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.136 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014303 seconds.
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1b11b6e63bdd1334b9df970c5d3d1820) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '523c4fefecc13a90864f0bb19c4178c3') in 0.029586 seconds 
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.107 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014243 seconds.
+Start importing Assets/Prefabs/Environment/Env_StreetLamp.prefab using Guid(df2952deb84b64a46bf61cd2b730a066) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cb67fdb5d1a226d9d83ade24fbc0c249') in 0.027912 seconds 
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Stage2] Building enhanced game scene...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.Stage2EnhancementPipeline:BuildEnhancedScene () (at Assets/Editor/Stage2EnhancementPipeline.cs:665)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:43)
+
+(Filename: Assets/Editor/Stage2EnhancementPipeline.cs Line: 665)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 558 unused Assets / (2.0 MB). Loaded Objects now: 3618.
+Memory consumption went from 81.0 MB to 79.0 MB.
+Total: 7.365600 ms (FindLiveObjects: 0.554600 ms CreateObjectMapping: 0.418200 ms MarkObjects: 5.523600 ms  DeleteObjects: 0.867800 ms)
+
+Registering precompiled user dll's ...
+Registered in 0.014333 seconds.
+Start importing Assets/Art/Materials/M_Player_Backpack.mat using Guid(30a3975c9ddd76e4786c3c764f670640) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '57361d577c66a5fae8f98436b413065f') in 0.006859 seconds 
+Start importing Assets/Art/Materials/M_Player_Pants.mat using Guid(e0f6c07cff22f8b4e9264f9d1870a60d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2d43db06db84fbef337489a7a5156be7') in 0.004829 seconds 
+Start importing Assets/Art/Materials/M_Flower_Purple.mat using Guid(b1969b2c859ad304fa658d6602244e1f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1752e390946085391cae6781bff966ca') in 0.005238 seconds 
+Start importing Assets/Art/Materials/M_DarkWood.mat using Guid(328b9f912a257d24c8dcb7cc836efaeb) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '450b255efcf3dd5fcfe12767bc84f94a') in 0.005409 seconds 
+Start importing Assets/Art/Materials/M_GrassEdge.mat using Guid(e4da6f89ce740d44f900bc01e9f754ff) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '247eaf89bd9dd9b34c9fc808c7230b82') in 0.004846 seconds 
+Start importing Assets/Art/Materials/M_Particle_Red.mat using Guid(6609d5ca54f9efe44b5793282b0ab3d7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'dc6f0f5ac442ec8ab79e41f4b586be50') in 0.004927 seconds 
+Start importing Assets/Art/Materials/M_Flower_Yellow.mat using Guid(e93be5da70cc89b4e9f5657c7d515542) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'fd09cf7b6e2919470b95f223645935a6') in 0.005139 seconds 
+Start importing Assets/Art/Materials/M_Fountain_Stone.mat using Guid(ca76ad3d4d1135b4e8c20b3ef1fa7cfb) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5153f6440cb0a3518d8f4d69021c096d') in 0.004759 seconds 
+Start importing Assets/Art/Materials/M_Flower_Stem.mat using Guid(ea76105dd2703ed4cac9d29e3df4f104) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ccd6fbbb7871f4ba96095772bd45f9ff') in 0.005455 seconds 
+Start importing Assets/Art/Materials/M_Flower_Red.mat using Guid(fb9d8641dfdfb5842b3a501b4f70ece4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8872d43b5b77aa13cd602bad5fb1e37e') in 0.005532 seconds 
+Start importing Assets/Art/Materials/M_Particle_Green.mat using Guid(1c44445403ff8de4cba1fdd4501f207a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '13492f1426fcca71b8e56eb3ab3e927d') in 0.004877 seconds 
+Start importing Assets/Art/Materials/M_Flower_White.mat using Guid(ed45235134152214cb2312a561da0950) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3af8ce16779ad246a77487054a5f1105') in 0.005301 seconds 
+Start importing Assets/Art/Materials/M_Dirt.mat using Guid(6ee1b46911c734f449469393bd7e82bd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1ee832415664791c76ef53860d67f62d') in 0.005363 seconds 
+Start importing Assets/Art/Materials/M_Player_Boots.mat using Guid(ce967801494378d44b00c38df78f0e01) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0a026dee5e6d5e63b9a719b36cd90eb0') in 0.005203 seconds 
+Start importing Assets/Art/Materials/M_Bin_Lid.mat using Guid(3f7a08bd80ee5044ca07ecd198f76230) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cf2d0f78736e85a90e878c7b5bd18c94') in 0.005284 seconds 
+Start importing Assets/Art/Materials/M_Player_Hair.mat using Guid(5f2a6e45987e4bc418fe9e34d87e929d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5d73002350353a6c0313a2e5783fd60f') in 0.004960 seconds 
+Start importing Assets/Art/Materials/M_Concrete.mat using Guid(7f14bc14f92229345a2f73eaa13a1ce4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1c03cd8a0fa9fc7a25506cdbd97aef21') in 0.004845 seconds 
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.217 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Registering precompiled user dll's ...
+Registered in 0.014830 seconds.
+Start importing Assets/Scenes/GameScene.unity using Guid(614fc86ad548fcc44947d6ffd65355e0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '54aa1591b7eaae0bbf72ccd1f5de407a') in 0.015375 seconds 
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.107 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Stage2] Scene saved to Assets/Scenes/GameScene.unity
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.Stage2EnhancementPipeline:BuildEnhancedScene () (at Assets/Editor/Stage2EnhancementPipeline.cs:700)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:43)
+
+(Filename: Assets/Editor/Stage2EnhancementPipeline.cs Line: 700)
+
+[Stage2] Registering scenes in Build Settings...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.Stage2EnhancementPipeline:RegisterSceneInBuildSettings () (at Assets/Editor/Stage2EnhancementPipeline.cs:1112)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:46)
+
+(Filename: Assets/Editor/Stage2EnhancementPipeline.cs Line: 1112)
+
+Registering precompiled user dll's ...
+Registered in 0.015938 seconds.
+Start importing ProjectSettings/EditorBuildSettings.asset using Guid(0000000000000000b000000000000000) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9d279ca19d8d42f1b51b4b90271162e5') in 0.014517 seconds 
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh: Total: 0.095 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh: Total: 0.011 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Stage2] ========== STAGE 2 COMPLETE ==========
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrashRush.Editor.Stage2EnhancementPipeline:RunStage2 () (at Assets/Editor/Stage2EnhancementPipeline.cs:51)
+
+(Filename: Assets/Editor/Stage2EnhancementPipeline.cs Line: 51)
+
+Batchmode quit successfully invoked - shutting down!
+[Licensing::IpcConnector] License Notification channel disconnected successfully.
+[Licensing::IpcConnector] License Client channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+[Performance] WinEditorMain                                                                                              :        1 samples, Peak.  2.68 s (1.0x), Avg.  2.68 s, Total. 2.676 s (10.2%)
+[Performance] WinEditorMain.ConfigureCrashHandler                                                                        :        1 samples, Peak.  42.9 us (1.0x), Avg.  42.9 us, Total. 42.90 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                                                                        :        1 samples, Peak.  1.06 ms (1.0x), Avg.  1.06 ms, Total. 1.064 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                                                                 :        1 samples, Peak.  1.31 ms (1.0x), Avg.  1.31 ms, Total. 1.306 ms (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit                                                              :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Performance] WinEditorMain.Licensing                                                                                    :        1 samples, Peak.  2.65 s (1.0x), Avg.  2.65 s, Total. 2.654 s (10.1%)
+[Performance] WinEditorMain.InitializeCrashHandler                                                                       :        1 samples, Peak.  13.7 ms (1.0x), Avg.  13.7 ms, Total. 13.75 ms (0.1%)
+[Performance] WinEditorMain.CreateApplication                                                                            :        1 samples, Peak.   516 us (1.0x), Avg.   516 us, Total. 516.1 us (0.0%)
+[Performance] Application.InitializeProject                                                                              :        1 samples, Peak.  11.1 s (1.0x), Avg.  11.1 s, Total. 11.13 s (42.6%)
+[Performance] Application.PackageManager.StartServer                                                                     :        1 samples, Peak.  9.48 ms (1.0x), Avg.  9.48 ms, Total. 9.475 ms (0.0%)
+[Performance] Application.AcquireProjectLock                                                                             :        1 samples, Peak.  24.1 ms (1.0x), Avg.  24.1 ms, Total. 24.08 ms (0.1%)
+[Performance] Application.InitializeEngineNoGraphics                                                                     :        1 samples, Peak.   126 ms (1.0x), Avg.   126 ms, Total. 126.2 ms (0.5%)
+[Performance] Application.PackageManager.Initialize                                                                      :        1 samples, Peak.   884 ms (1.0x), Avg.   884 ms, Total. 883.9 ms (3.4%)
+[Performance] CurlRequestCheck                                                                                           :       16 samples, Peak.  65.1 us (6.6x), Avg.  9.92 us, Total. 158.8 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                                                                      :        1 samples, Peak.   511 ms (1.0x), Avg.   511 ms, Total. 510.6 ms (2.0%)
+[Performance] Application.GI.Initialize                                                                                  :        1 samples, Peak.  5.28 ms (1.0x), Avg.  5.28 ms, Total. 5.277 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor                                                              :        1 samples, Peak.  4.09 ms (1.0x), Avg.  4.09 ms, Total. 4.092 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                                                                             :        1 samples, Peak.  1.17 s (1.0x), Avg.  1.17 s, Total. 1.165 s (4.5%)
+[Performance] RestoreManagedReferences                                                                                   :        2 samples, Peak.  85.8 ms (2.0x), Avg.  42.9 ms, Total. 85.77 ms (0.3%)
+[Performance] InitializeOnLoad LayerSettingsWindow                                                                       :        2 samples, Peak.   464 us (1.0x), Avg.   443 us, Total. 885.9 us (0.0%)
+[Performance] InitializeOnLoad ParameterControllerEditor                                                                 :        2 samples, Peak.  26.9 us (1.0x), Avg.  26.2 us, Total. 52.40 us (0.0%)
+[Performance] InitializeOnLoad ServicesRepository                                                                        :        2 samples, Peak.  1.30 ms (1.0x), Avg.  1.27 ms, Total. 2.547 ms (0.0%)
+[Performance] InitializeOnLoad AdsService                                                                                :        2 samples, Peak.  7.48 ms (1.7x), Avg.  4.32 ms, Total. 8.648 ms (0.0%)
+[Performance] InitializeOnLoad AnalyticsService                                                                          :        2 samples, Peak.   276 us (1.0x), Avg.   275 us, Total. 550.0 us (0.0%)
+[Performance] InitializeOnLoad BuildService                                                                              :        2 samples, Peak.   286 us (1.0x), Avg.   282 us, Total. 563.2 us (0.0%)
+[Performance] InitializeOnLoad CloudBuildPoller                                                                          :        2 samples, Peak.   232 us (1.1x), Avg.   212 us, Total. 423.9 us (0.0%)
+[Performance] InitializeOnLoad CrashService                                                                              :        2 samples, Peak.   273 us (1.0x), Avg.   271 us, Total. 542.7 us (0.0%)
+[Performance] InitializeOnLoad PurchasingService                                                                         :        2 samples, Peak.  11.6 ms (1.5x), Avg.  7.97 ms, Total. 15.94 ms (0.1%)
+[Performance] InitializeOnLoad UDPService                                                                                :        2 samples, Peak.   317 us (1.0x), Avg.   306 us, Total. 611.2 us (0.0%)
+[Performance] InitializeOnLoad UIDocumentHierarchyWatcher                                                                :        2 samples, Peak.  1.42 ms (1.6x), Avg.   900 us, Total. 1.801 ms (0.0%)
+[Performance] InitializeOnLoad RetainedMode                                                                              :        2 samples, Peak.  3.61 ms (1.0x), Avg.  3.51 ms, Total. 7.030 ms (0.0%)
+[Performance] InitializeOnLoad EditorMonitor                                                                             :        2 samples, Peak.   336 us (1.0x), Avg.   321 us, Total. 642.6 us (0.0%)
+[Performance] InitializeOnLoad EditorShaderLoader                                                                        :        2 samples, Peak.  1.66 ms (1.0x), Avg.  1.58 ms, Total. 3.166 ms (0.0%)
+[Performance] InitializeOnLoad UXMLEditorFactories                                                                       :        2 samples, Peak.   122 ms (1.1x), Avg.   115 ms, Total. 229.3 ms (0.9%)
+[Performance] InitializeOnLoad SearchMonitor                                                                             :        2 samples, Peak.  50.1 ms (1.5x), Avg.  33.5 ms, Total. 67.01 ms (0.3%)
+[Performance] InitializeOnLoad CustomIndexers                                                                            :        2 samples, Peak.  30.6 ms (1.2x), Avg.  25.2 ms, Total. 50.49 ms (0.2%)
+[Performance] InitializeOnLoad PlayModeDownload                                                                          :        2 samples, Peak.  4.19 ms (1.9x), Avg.  2.22 ms, Total. 4.439 ms (0.0%)
+[Performance] InitializeOnLoad SearchWindow                                                                              :        2 samples, Peak.   231 us (1.0x), Avg.   229 us, Total. 457.2 us (0.0%)
+[Performance] InitializeOnLoad EditMode                                                                                  :        2 samples, Peak.   881 us (1.2x), Avg.   749 us, Total. 1.497 ms (0.0%)
+[Performance] InitializeOnLoad AssetStoreContext                                                                         :        2 samples, Peak.  10.5 ms (1.8x), Avg.  5.87 ms, Total. 11.74 ms (0.0%)
+[Performance] InitializeOnLoad DrivenRectTransformUndo                                                                   :        2 samples, Peak.   514 us (1.1x), Avg.   465 us, Total. 930.4 us (0.0%)
+[Performance] InitializeOnLoad CacheServerWindow                                                                         :        2 samples, Peak.  34.1 us (1.3x), Avg.  26.6 us, Total. 53.20 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebuggerWindow                                                                     :        2 samples, Peak.  1.53 ms (1.1x), Avg.  1.39 ms, Total. 2.771 ms (0.0%)
+[Performance] InitializeOnLoad WindowLayout                                                                              :        2 samples, Peak.  8.11 ms (1.9x), Avg.  4.33 ms, Total. 8.662 ms (0.0%)
+[Performance] InitializeOnLoad PrefabInstanceChangedListener                                                             :        2 samples, Peak.   321 us (1.5x), Avg.   209 us, Total. 418.6 us (0.0%)
+[Performance] InitializeOnLoad SettingsService                                                                           :        2 samples, Peak.  13.8 us (1.1x), Avg.  12.2 us, Total. 24.40 us (0.0%)
+[Performance] InitializeOnLoad NativeFormatImporterUtility                                                               :        2 samples, Peak.  4.47 ms (1.1x), Avg.  3.98 ms, Total. 7.966 ms (0.0%)
+[Performance] InitializeOnLoad UISystemProfilerRenderService                                                             :        2 samples, Peak.  19.4 us (1.2x), Avg.  16.7 us, Total. 33.50 us (0.0%)
+[Performance] InitializeOnLoad ShortcutIntegration                                                                       :        2 samples, Peak.   152 us (1.0x), Avg.   147 us, Total. 293.8 us (0.0%)
+[Performance] InitializeOnLoad UnityConnect                                                                              :        2 samples, Peak.   108 us (1.0x), Avg.   106 us, Total. 212.5 us (0.0%)
+[Performance] InitializeOnLoad ObjectSelectorSearch                                                                      :        2 samples, Peak.   632 us (1.8x), Avg.   353 us, Total. 706.6 us (0.0%)
+[Performance] InitializeOnLoad ProjectSearch                                                                             :        2 samples, Peak.  97.8 us (1.2x), Avg.  84.1 us, Total. 168.2 us (0.0%)
+[Performance] InitializeOnLoad SceneSearch                                                                               :        2 samples, Peak.  72.1 us (1.1x), Avg.  67.5 us, Total. 134.9 us (0.0%)
+[Performance] InitializeOnLoad SearchService                                                                             :        2 samples, Peak.   224 us (1.1x), Avg.   211 us, Total. 421.8 us (0.0%)
+[Performance] InitializeOnLoad AddComponentWindow                                                                        :        2 samples, Peak.   202 us (1.0x), Avg.   195 us, Total. 391.0 us (0.0%)
+[Performance] InitializeOnLoad CloudBuild                                                                                :        2 samples, Peak.  7.00 us (1.1x), Avg.  6.20 us, Total. 12.40 us (0.0%)
+[Performance] InitializeOnLoad MixerEffectDefinitionReloader                                                             :        2 samples, Peak.  4.23 ms (1.1x), Avg.  3.73 ms, Total. 7.469 ms (0.0%)
+[Performance] InitializeOnLoad MenuItems                                                                                 :        2 samples, Peak.   174 us (1.1x), Avg.   161 us, Total. 322.3 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebugger                                                                           :        2 samples, Peak.  1.50 us (1.3x), Avg.  1.15 us, Total. 2.300 us (0.0%)
+[Performance] InitializeOnLoad EditorDragAndDrop.RegisterEditorClient                                                    :        2 samples, Peak.  1.73 ms (1.6x), Avg.  1.08 ms, Total. 2.164 ms (0.0%)
+[Performance] InitializeOnLoad EditorDelegateRegistration.Initialize                                                     :        2 samples, Peak.   795 us (1.0x), Avg.   794 us, Total. 1.588 ms (0.0%)
+[Performance] InitializeOnLoad LiveReloadTrackerCreator.Initialize                                                       :        2 samples, Peak.   341 us (1.0x), Avg.   338 us, Total. 675.7 us (0.0%)
+[Performance] InitializeOnLoad PackageManagerHookGUIDConverter.RegisterPackagesEventHandler                              :        2 samples, Peak.   247 us (1.1x), Avg.   230 us, Total. 460.5 us (0.0%)
+[Performance] InitializeOnLoad RuntimeEditorDelegateRegistration.Initialize                                              :        2 samples, Peak.   368 us (1.0x), Avg.   361 us, Total. 721.5 us (0.0%)
+[Performance] InitializeOnLoad EditorEventCallbacks.InitializeFontAssetResourceChangeCallBacks                           :        2 samples, Peak.  2.32 ms (1.1x), Avg.  2.21 ms, Total. 4.411 ms (0.0%)
+[Performance] InitializeOnLoad SceneTemplateService.Init                                                                 :        2 samples, Peak.  1.01 ms (1.4x), Avg.   736 us, Total. 1.472 ms (0.0%)
+[Performance] InitializeOnLoad PackageManagerWindow.EditorInitializedInSafeMode                                          :        2 samples, Peak.  53.6 ms (2.0x), Avg.  27.0 ms, Total. 53.91 ms (0.2%)
+[Performance] InitializeOnLoad EntitlementsErrorChecker.OpenFirstEntitlementError                                        :        2 samples, Peak.  15.5 ms (1.9x), Avg.  8.16 ms, Total. 16.33 ms (0.1%)
+[Performance] InitializeOnLoad ScopedRegistryAddedPopup.SubscribeToRegistriesAdded                                       :        2 samples, Peak.   195 us (1.0x), Avg.   193 us, Total. 386.3 us (0.0%)
+[Performance] InitializeOnLoad DiagnosticSwitchesConsoleMessage.Init                                                     :        2 samples, Peak.  12.2 ms (1.7x), Avg.  6.97 ms, Total. 13.95 ms (0.1%)
+[Performance] InitializeOnLoad SysrootManager.Initialize                                                                 :        2 samples, Peak.  1.15 ms (1.1x), Avg.  1.02 ms, Total. 2.036 ms (0.0%)
+[Performance] InitializeOnLoad AssetPostprocessingInternal.RefreshCustomDependencies                                     :        2 samples, Peak.  5.56 ms (1.5x), Avg.  3.59 ms, Total. 7.180 ms (0.0%)
+[Performance] InitializeOnLoad EditorWindow.Initialize                                                                   :        2 samples, Peak.   375 us (1.0x), Avg.   373 us, Total. 746.8 us (0.0%)
+[Performance] InitializeOnLoad SceneVisibilityManager.Initialize                                                         :        2 samples, Peak.  10.3 ms (1.7x), Avg.  6.05 ms, Total. 12.10 ms (0.0%)
+[Performance] InitializeOnLoad MemoryProfilerCompilationGuard.InjectCompileGuard                                         :        2 samples, Peak.   362 us (1.1x), Avg.   343 us, Total. 686.2 us (0.0%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                                                                :        2 samples, Peak.   946 us (1.3x), Avg.   711 us, Total. 1.422 ms (0.0%)
+[Performance] Application.ReadLicenseInfo                                                                                :        1 samples, Peak.  17.3 ms (1.0x), Avg.  17.3 ms, Total. 17.28 ms (0.1%)
+[Performance] Application.InitialRefresh                                                                                 :        1 samples, Peak.  6.95 s (1.0x), Avg.  6.95 s, Total. 6.951 s (26.6%)
+[Performance] Compiling Scripts                                                                                          :        1 samples, Peak.   783 ms (1.0x), Avg.   783 ms, Total. 782.5 ms (3.0%)
+[Performance] InitializeOnLoad CoverageReporterStarter                                                                   :        1 samples, Peak.  16.9 ms (1.0x), Avg.  16.9 ms, Total. 16.86 ms (0.1%)
+[Performance] InitializeOnLoad RiderScriptEditor                                                                         :        1 samples, Peak.  23.4 ms (1.0x), Avg.  23.4 ms, Total. 23.42 ms (0.1%)
+[Performance] InitializeOnLoad CallbackInitializer                                                                       :        1 samples, Peak.  3.75 ms (1.0x), Avg.  3.75 ms, Total. 3.746 ms (0.0%)
+[Performance] InitializeOnLoad PlasticPlugin                                                                             :        1 samples, Peak.   165 ms (1.0x), Avg.   165 ms, Total. 165.1 ms (0.6%)
+[Performance] InitializeOnLoad PrefabLayoutRebuilder                                                                     :        1 samples, Peak.   500 us (1.0x), Avg.   500 us, Total. 500.1 us (0.0%)
+[Performance] InitializeOnLoad RerunCallbackInitializer                                                                  :        1 samples, Peak.  3.37 ms (1.0x), Avg.  3.37 ms, Total. 3.369 ms (0.0%)
+[Performance] InitializeOnLoad UnityTestProtocolStarter                                                                  :        1 samples, Peak.   910 us (1.0x), Avg.   910 us, Total. 909.5 us (0.0%)
+[Performance] InitializeOnLoad TestStarter                                                                               :        1 samples, Peak.  1.14 ms (1.0x), Avg.  1.14 ms, Total. 1.141 ms (0.0%)
+[Performance] InitializeOnLoad BackgroundWatcher                                                                         :        1 samples, Peak.   199 us (1.0x), Avg.   199 us, Total. 199.2 us (0.0%)
+[Performance] InitializeOnLoad ToolbarBootstrap                                                                          :        1 samples, Peak.  1.02 s (1.0x), Avg.  1.02 s, Total. 1.023 s (3.9%)
+[Performance] Package.AsyncRequest                                                                                       :        4 samples, Peak.  1.63 ms (4.0x), Avg.   410 us, Total. 1.640 ms (0.0%)
+[Performance] InitializeOnLoad VSUsageUtility                                                                            :        1 samples, Peak.  55.6 ms (1.0x), Avg.  55.6 ms, Total. 55.64 ms (0.2%)
+[Performance] InitializeOnLoad VisualStudioEditor                                                                        :        1 samples, Peak.  18.1 ms (1.0x), Avg.  18.1 ms, Total. 18.07 ms (0.1%)
+[Performance] InitializeOnLoad VisualStudioIntegration                                                                   :        1 samples, Peak.  6.38 ms (1.0x), Avg.  6.38 ms, Total. 6.385 ms (0.0%)
+[Performance] InitializeOnLoad TestRunnerApiListener                                                                     :        1 samples, Peak.   775 us (1.0x), Avg.   775 us, Total. 774.7 us (0.0%)
+[Performance] InitializeOnLoad VSCodeScriptEditor                                                                        :        1 samples, Peak.  5.97 ms (1.0x), Avg.  5.97 ms, Total. 5.973 ms (0.0%)
+[Performance] InitializeOnLoad AutoAssetRunner                                                                           :        1 samples, Peak.   331 us (1.0x), Avg.   331 us, Total. 331.4 us (0.0%)
+[Performance] InitializeOnLoad TestJobDataHolder.ResumeRunningJobs                                                       :        1 samples, Peak.  1.01 ms (1.0x), Avg.  1.01 ms, Total. 1.011 ms (0.0%)
+[Performance] InitializeOnLoad AnalyticsReporter.RegisterCallbacks                                                       :        1 samples, Peak.   421 us (1.0x), Avg.   421 us, Total. 421.4 us (0.0%)
+[Performance] InitializeOnLoad VisualStudioEditor.LegacyVisualStudioCodePackageDisabler                                  :        1 samples, Peak.  9.62 ms (1.0x), Avg.  9.62 ms, Total. 9.624 ms (0.0%)
+[Performance] DidReloadScriptsTestListCache.ScriptReloaded                                                               :        1 samples, Peak.  1.67 ms (1.0x), Avg.  1.67 ms, Total. 1.666 ms (0.0%)
+[Performance] DidReloadScriptsTestRunnerWindow.CompilationCallback                                                       :        1 samples, Peak.  1.88 ms (1.0x), Avg.  1.88 ms, Total. 1.881 ms (0.0%)
+[Performance] DidReloadScriptsAdvancedDropdownWindow.OnScriptReload                                                      :        1 samples, Peak.   427 us (1.0x), Avg.   427 us, Total. 427.1 us (0.0%)
+[Performance] SyncVS.PostprocessSyncProject                                                                              :       47 samples, Peak.  31.2 ms (8.9x), Avg.  3.53 ms, Total. 165.7 ms (0.6%)
+[Performance] Application.ImportPackagesAndSetTemplateWhenCreatingProject                                                :        1 samples, Peak.  27.7 ms (1.0x), Avg.  27.7 ms, Total. 27.67 ms (0.1%)
+[Performance] Application.SyncCurrentColorSpace                                                                          :        1 samples, Peak.   149 ms (1.0x), Avg.   149 ms, Total. 149.5 ms (0.6%)
+[Performance] Application.OnUsbDevicesChanged                                                                            :        1 samples, Peak.  3.21 ms (1.0x), Avg.  3.21 ms, Total. 3.213 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                                                                       :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                                                                     :        1 samples, Peak.  1.21 ms (1.0x), Avg.  1.21 ms, Total. 1.210 ms (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline                                                           :        1 samples, Peak.   530 ms (1.0x), Avg.   530 ms, Total. 529.9 ms (2.0%)
+[Performance] Application.ExecuteStartups                                                                                :        1 samples, Peak.   119 ms (1.0x), Avg.   119 ms, Total. 118.9 ms (0.5%)
+[Performance] Menu.RegisterMenuInterface                                                                                 :       26 samples, Peak.  2.50 us (6.8x), Avg.   369 ns, Total. 9.600 us (0.0%)
+[Performance] Gizmo.RebuildRenderers                                                                                     :        1 samples, Peak.   117 ms (1.0x), Avg.   117 ms, Total. 117.0 ms (0.4%)
+[Performance] Gizmo.AddGizmoRenderers                                                                                    :       57 samples, Peak.  2.48 ms (36.1x), Avg.  68.7 us, Total. 3.914 ms (0.0%)
+[Performance] Application.editorInitializingProject                                                                      :        1 samples, Peak.  45.0 us (1.0x), Avg.  45.0 us, Total. 45.00 us (0.0%)
+[Performance] Application.InitializeMenu                                                                                 :        1 samples, Peak.   185 ms (1.0x), Avg.   185 ms, Total. 184.5 ms (0.7%)
+[Performance] Menu.RebuildAll                                                                                            :        1 samples, Peak.   184 ms (1.0x), Avg.   184 ms, Total. 184.5 ms (0.7%)
+[Performance] Menu.BuildRegisteredMenuInterfaces                                                                         :        1 samples, Peak.   180 ms (1.0x), Avg.   180 ms, Total. 180.4 ms (0.7%)
+[Performance] Menu.FilterMenuItem                                                                                        :      536 samples, Peak.  68.4 ms (532.2x), Avg.   129 us, Total. 68.94 ms (0.3%)
+[Performance] UpdateAllMenus                                                                                             :        1 samples, Peak.  1.01 ms (1.0x), Avg.  1.01 ms, Total. 1.006 ms (0.0%)
+[Performance] Menu.RebuildOSMainMenu                                                                                     :        1 samples, Peak.  2.91 ms (1.0x), Avg.  2.91 ms, Total. 2.909 ms (0.0%)
+[Performance] EditorSceneManager.sceneClosing: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneClosing       :        3 samples, Peak.   676 us (2.9x), Avg.   229 us, Total. 687.8 us (0.0%)
+[Performance] EditorSceneManager.sceneClosed: callback in UnityEditor.Search.SearchMonitor                               :        3 samples, Peak.   132 us (2.9x), Avg.  45.3 us, Total. 135.9 us (0.0%)
+[Performance] EditorSceneManager.activeSceneChangedInEditMode: callback in UnityEditor.Search.SearchMonitor              :        3 samples, Peak.  59.3 us (2.9x), Avg.  20.4 us, Total. 61.20 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                                                                    :        3 samples, Peak.  1.70 us (1.3x), Avg.  1.33 us, Total. 4.000 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnNewSceneCreated :        3 samples, Peak.   735 us (2.8x), Avg.   260 us, Total. 779.2 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneManagement.StageNavigationManager.OnNewSceneCreated   :        3 samples, Peak.   162 us (2.9x), Avg.  55.0 us, Total. 165.1 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                                                                   :        1 samples, Peak.   162 ms (1.0x), Avg.   162 ms, Total. 161.8 ms (0.6%)
+[Performance] ProcessService.OnProjectLoaded                                                                             :        1 samples, Peak.  91.3 us (1.0x), Avg.  91.3 us, Total. 91.30 us (0.0%)
+[Performance] VersionControl.Task.Wait                                                                                   :        1 samples, Peak.  37.4 us (1.0x), Avg.  37.4 us, Total. 37.40 us (0.0%)
+[Performance] AssetDatabase.Refresh                                                                                      :        9 samples, Peak.  79.5 ms (4.2x), Avg.  18.9 ms, Total. 170.0 ms (0.6%)
+[Performance] AssetModificationProcessor.OnWillSaveAssets                                                                :       51 samples, Peak.   662 us (29.6x), Avg.  22.4 us, Total. 1.141 ms (0.0%)
+[Performance] StateMacroSavedEvent.OnWillSaveAssets                                                                      :       51 samples, Peak.   489 us (15.8x), Avg.  31.0 us, Total. 1.580 ms (0.0%)
+[Performance] FlowMacroSavedEvent.OnWillSaveAssets                                                                       :       51 samples, Peak.   380 us (18.4x), Avg.  20.7 us, Total. 1.057 ms (0.0%)
+[Performance] BuilderAssetModificationProcessor.OnWillSaveAssets                                                         :       51 samples, Peak.   871 us (42.7x), Avg.  20.4 us, Total. 1.039 ms (0.0%)
+[Performance] TerrainModificationProcessor.OnWillSaveAssets                                                              :       51 samples, Peak.  1.12 ms (45.8x), Avg.  24.4 us, Total. 1.243 ms (0.0%)
+[Performance] SceneDataContainer.TransformHierarchyChangedSetParentCallback                                              :     1026 samples, Peak.  30.7 us (37.2x), Avg.   825 ns, Total. 846.1 us (0.0%)
+[Performance] SceneVisibilityState.IsFlagSetInParents                                                                    :     1122 samples, Peak.  2.60 us (7.5x), Avg.   349 ns, Total. 391.1 us (0.0%)
+[Performance] Undo.willFlushUndoRecord: UnityEditor.DrivenRectTransformUndo.ForceUpdateCanvases                          :        2 samples, Peak.   409 us (2.0x), Avg.   209 us, Total. 417.3 us (0.0%)
+[Performance] AssetDatabase.ImportAssets                                                                                 :       54 samples, Peak.   560 ms (34.7x), Avg.  16.2 ms, Total. 872.7 ms (3.3%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                                                               :      110 samples, Peak.   558 us (16.8x), Avg.  33.1 us, Total. 3.641 ms (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset                                                          :      110 samples, Peak.   286 us (41.7x), Avg.  6.86 us, Total. 754.9 us (0.0%)
+[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets                                                          :       92 samples, Peak.  1.30 ms (23.1x), Avg.  56.0 us, Total. 5.156 ms (0.0%)
+[Performance] AssetPostprocessor.OnPostprocessAllAssets                                                                  :       92 samples, Peak.   479 us (31.2x), Avg.  15.4 us, Total. 1.413 ms (0.0%)
+[Performance] BuilderAssetPostprocessor.OnPostprocessAllAssets                                                           :       92 samples, Peak.  6.38 ms (33.0x), Avg.   193 us, Total. 17.79 ms (0.1%)
+[Performance] ArtifactBrowserPostProcessor.OnPostprocessAllAssets                                                        :       92 samples, Peak.   647 us (34.6x), Avg.  18.7 us, Total. 1.721 ms (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                                                                         :      184 samples, Peak.   556 us (40.2x), Avg.  13.9 us, Total. 2.549 ms (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets                                                             :       92 samples, Peak.   561 us (35.0x), Avg.  16.0 us, Total. 1.473 ms (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets                                                           :       92 samples, Peak.  32.3 ms (45.2x), Avg.   715 us, Total. 65.78 ms (0.3%)
+[Performance] BuildCatalog                                                                                               :        1 samples, Peak.  30.4 ms (1.0x), Avg.  30.4 ms, Total. 30.41 ms (0.1%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets                                                          :       92 samples, Peak.  31.4 ms (18.4x), Avg.  1.71 ms, Total. 157.0 ms (0.6%)
+[Performance] RetainedModeAssetPostprocessor.OnPostprocessAllAssets                                                      :       92 samples, Peak.  3.33 ms (36.9x), Avg.  90.3 us, Total. 8.309 ms (0.0%)
+[Performance] AssetChangedListener.OnPostprocessAllAssets                                                                :       92 samples, Peak.  19.2 ms (37.3x), Avg.   515 us, Total. 47.41 ms (0.2%)
+[Performance] SpeedTreePostProcessor.OnPostprocessAllAssets                                                              :       92 samples, Peak.   783 us (20.5x), Avg.  38.2 us, Total. 3.517 ms (0.0%)
+[Performance] TextAssetPostProcessor.OnPostprocessAllAssets                                                              :       92 samples, Peak.  1.39 ms (28.5x), Avg.  48.9 us, Total. 4.499 ms (0.0%)
+[Performance] UIDocumentAssetPostProcessor.OnPostprocessAllAssets                                                        :       92 samples, Peak.  1.69 ms (36.6x), Avg.  46.2 us, Total. 4.252 ms (0.0%)
+[Performance] EditorSceneManager.sceneSaving: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneSaving         :        2 samples, Peak.   476 us (2.0x), Avg.   239 us, Total. 478.8 us (0.0%)
+[Performance] AssetDatabase.ImportAsset                                                                                  :        2 samples, Peak.   108 ms (1.2x), Avg.  92.3 ms, Total. 184.6 ms (0.7%)
+[Performance] ShaderImporter.SourceAssetModified                                                                         :       45 samples, Peak.  2.70 us (2.1x), Avg.  1.30 us, Total. 58.70 us (0.0%)
+[Performance] ShaderIncludeImporter.SourceAssetModified                                                                  :       45 samples, Peak.  3.20 us (2.3x), Avg.  1.40 us, Total. 63.00 us (0.0%)
+[Performance] EditorSceneManager.sceneSaved: UnityEditor.SceneTemplate.SceneTemplateService.OnSceneSaved                 :        2 samples, Peak.  30.1 ms (1.3x), Avg.  23.0 ms, Total. 45.94 ms (0.2%)
+[Performance] EditorSceneManager.sceneSaved: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneSaved           :        2 samples, Peak.   255 us (1.9x), Avg.   134 us, Total. 267.9 us (0.0%)
+[Performance] BuilderAssetModificationProcessor.OnWillCreateAsset                                                        :       67 samples, Peak.   758 us (14.8x), Avg.  51.3 us, Total. 3.434 ms (0.0%)
+[Performance] EditorApplication.projectChanged: UnityEditor.Audio.MixerEffectDefinitionReloader.OnProjectChanged         :       34 samples, Peak.  2.98 ms (3.7x), Avg.   797 us, Total. 27.10 ms (0.1%)
+[Performance] PrefabUtility.prefabInstanceUpdated: UnityEditor.UI.PrefabLayoutRebuilder.OnPrefabInstanceUpdates          :       20 samples, Peak.   174 us (17.5x), Avg.  9.97 us, Total. 199.4 us (0.0%)
+[Performance] EditorApplication.quitting: UnityEditor.SettingsManagement.PackageSettingsRepository.Save                  :        1 samples, Peak.  2.63 ms (1.0x), Avg.  2.63 ms, Total. 2.628 ms (0.0%)
+[Performance] EditorApplication.quitting: UnityEditor.Search.SearchMonitor.OnQuitting                                    :        1 samples, Peak.  1.65 ms (1.0x), Avg.  1.65 ms, Total. 1.647 ms (0.0%)
+[Performance] EditorApplication.quitting: callback in UnityEditor.TextCore.Text.EditorEventCallbacks                     :        1 samples, Peak.  20.0 ms (1.0x), Avg.  20.0 ms, Total. 20.02 ms (0.1%)
+[Performance] Application.Shutdown.PauseProfilerSession                                                                  :        1 samples, Peak.  50.3 us (1.0x), Avg.  50.3 us, Total. 50.30 us (0.0%)
+[Performance] Application.Shutdown.PauseAssetImportWorkers                                                               :        1 samples, Peak.   272 us (1.0x), Avg.   272 us, Total. 271.6 us (0.0%)
+[Performance] Application.Shutdown.SaveAssets                                                                            :        1 samples, Peak.  1.07 ms (1.0x), Avg.  1.07 ms, Total. 1.067 ms (0.0%)
+[Performance] Application.Shutdown.CleanupRenderPipeline                                                                 :        1 samples, Peak.  6.20 us (1.0x), Avg.  6.20 us, Total. 6.200 us (0.0%)
+[Performance] Application.Shutdown.StopPreloadManager                                                                    :        1 samples, Peak.  9.85 ms (1.0x), Avg.  9.85 ms, Total. 9.852 ms (0.0%)
+[Performance] Application.Shutdown.DestroyWorld                                                                          :        1 samples, Peak.  2.94 ms (1.0x), Avg.  2.94 ms, Total. 2.942 ms (0.0%)
+[Performance] Application.Shutdown.CleanupAfterLoad                                                                      :        1 samples, Peak.  4.35 ms (1.0x), Avg.  4.35 ms, Total. 4.349 ms (0.0%)
+[Performance] Application.Shutdown.Progress                                                                              :        1 samples, Peak.  7.60 us (1.0x), Avg.  7.60 us, Total. 7.600 us (0.0%)
+[Performance] Application.Shutdown.GICleanupManagers                                                                     :        1 samples, Peak.  1.47 ms (1.0x), Avg.  1.47 ms, Total. 1.475 ms (0.0%)
+[Performance] Application.Shutdown.MenuCleanupClass                                                                      :        1 samples, Peak.   312 us (1.0x), Avg.   312 us, Total. 311.6 us (0.0%)
+[Performance] Application.Shutdown.ADBSaveStateBeforeShutdown                                                            :        1 samples, Peak.  9.60 us (1.0x), Avg.  9.60 us, Total. 9.600 us (0.0%)
+[Performance] Application.Shutdown.RemoteShutdown                                                                        :        1 samples, Peak.  1.00 us (1.0x), Avg.  1.00 us, Total. 1.000 us (0.0%)
+[Performance] Application.Shutdown.CleanupVCProvider                                                                     :        1 samples, Peak.  19.6 us (1.0x), Avg.  19.6 us, Total. 19.60 us (0.0%)
+[Performance] Application.Shutdown.InputShutdown                                                                         :        1 samples, Peak.  4.20 us (1.0x), Avg.  4.20 us, Total. 4.200 us (0.0%)
+[Performance] Application.Shutdown.GizmoManagerDestroy                                                                   :        1 samples, Peak.  1.64 ms (1.0x), Avg.  1.64 ms, Total. 1.644 ms (0.0%)
+[Performance] Application.Shutdown.ProfilerSession                                                                       :        1 samples, Peak.   249 us (1.0x), Avg.   249 us, Total. 249.4 us (0.0%)
+[Performance] Application.Shutdown.ReleaseGfxWindowOnAllGUIViews                                                         :        1 samples, Peak.  6.30 us (1.0x), Avg.  6.30 us, Total. 6.300 us (0.0%)
+[Performance] Application.Shutdown.CleanupEngine                                                                         :        1 samples, Peak.   118 ms (1.0x), Avg.   118 ms, Total. 118.0 ms (0.5%)
+[Performance] Application.Shutdown.CleanupAssetDatabase                                                                  :        1 samples, Peak.  12.4 ms (1.0x), Avg.  12.4 ms, Total. 12.42 ms (0.0%)
+[Performance] Application.Shutdown.ScriptCompilationCleanUp                                                              :        1 samples, Peak.  29.6 us (1.0x), Avg.  29.6 us, Total. 29.60 us (0.0%)
+[Performance] Application.Shutdown.DestroyJobSystem                                                                      :        1 samples, Peak.  88.4 us (1.0x), Avg.  88.4 us, Total. 88.40 us (0.0%)
+[Performance] Application.Shutdown.CleanupPersistentManager                                                              :        1 samples, Peak.  2.38 ms (1.0x), Avg.  2.38 ms, Total. 2.379 ms (0.0%)
+[Performance] Application.Shutdown.CleanupAsyncReadManager                                                               :        1 samples, Peak.   532 us (1.0x), Avg.   532 us, Total. 532.0 us (0.0%)
+[Performance] Application.Shutdown.CleanupProgressBar                                                                    :        1 samples, Peak.   500 ns (1.0x), Avg.   500 ns, Total. 500.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupMono                                                                           :        1 samples, Peak.  91.0 ms (1.0x), Avg.  91.0 ms, Total. 91.01 ms (0.3%)
+[Performance] Application.Shutdown.CleanupStdConverters                                                                  :        1 samples, Peak.  16.0 us (1.0x), Avg.  16.0 us, Total. 16.00 us (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportModuleNativeDlls                                              :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportNativeLibraries                                               :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupAutoDocumentation                                                              :        1 samples, Peak.   792 us (1.0x), Avg.   792 us, Total. 791.9 us (0.0%)
+[Performance] Application.Shutdown.ShaderNameManagerDestroy                                                              :        1 samples, Peak.  97.3 us (1.0x), Avg.  97.3 us, Total. 97.30 us (0.0%)
+[Performance] Application.Shutdown.CleanupCacheServer                                                                    :        1 samples, Peak.   500 ns (1.0x), Avg.   500 ns, Total. 500.0 ns (0.0%)
+[Performance] Application.Shutdown.Virtualization_Shutdown                                                               :        1 samples, Peak.   800 ns (1.0x), Avg.   800 ns, Total. 800.0 ns (0.0%)
+[Performance] Application.Shutdown.DevConnections                                                                        :        1 samples, Peak.   116 us (1.0x), Avg.   116 us, Total. 116.0 us (0.0%)
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0
